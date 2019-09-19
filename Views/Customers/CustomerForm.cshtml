@@ -33,3 +33,7 @@
     @Html.HiddenFor(m => m.Customer.Id)
     <button type="submit" class="btn btn-primary">Save</button>
 }
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
