@@ -8,6 +8,10 @@ namespace Vidly.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+        [Required]
+        [Display(Name = "Aadhar Card")]
+        public string AadharCard { get; set; }
     }
 
     public class ExternalLoginListViewModel
