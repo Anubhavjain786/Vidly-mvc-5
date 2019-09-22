@@ -156,7 +156,8 @@ namespace Vidly.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    AadharCard = model.AadharCard
+                    AadharCard = model.AadharCard,
+                    Phone = model.Phone
                 };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
@@ -386,7 +387,7 @@ namespace Vidly.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    AadharCard = model.AadharCard
+                    AadharCard = model.AadharCard                 
                 };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)

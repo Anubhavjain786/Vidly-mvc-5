@@ -12,6 +12,10 @@ namespace Vidly.Models
         [Required]
         [Display(Name = "Aadhar Card")]
         public string AadharCard { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string Phone { get; set; }
     }
 
     public class ExternalLoginListViewModel
@@ -71,6 +75,7 @@ namespace Vidly.Models
         [Required]
         [Display(Name ="Aadhar Card")]
         public string AadharCard { get; set; }
+        
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
@@ -86,6 +91,10 @@ namespace Vidly.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string Phone { get; set; }
     }
 
     public class ResetPasswordViewModel
