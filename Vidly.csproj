@@ -266,6 +266,10 @@
     <Compile Include="Migrations\201909212247528_SeedUsers.Designer.cs">
       <DependentUpon>201909212247528_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909221957102_AddAadharCardToApplicationUser.cs" />
+    <Compile Include="Migrations\201909221957102_AddAadharCardToApplicationUser.Designer.cs">
+      <DependentUpon>201909221957102_AddAadharCardToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -591,6 +595,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909212247528_SeedUsers.resx">
       <DependentUpon>201909212247528_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909221957102_AddAadharCardToApplicationUser.resx">
+      <DependentUpon>201909221957102_AddAadharCardToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

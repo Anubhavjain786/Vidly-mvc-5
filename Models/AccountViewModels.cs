@@ -65,6 +65,9 @@ namespace Vidly.Models
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name ="Aadhar Card")]
+        public string AadharCard { get; set; }
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
