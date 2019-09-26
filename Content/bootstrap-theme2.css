@@ -24,30 +24,31 @@ h2, .h2 {
     color: #fff;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff;
-    border-bottom: 3px solid transparent;
-    transition: border-bottom ease-in-out .15s;
-    padding-bottom: 10px;
-}
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+        border-bottom: 3px solid transparent;
+        transition: border-bottom ease-in-out .15s;
+        padding-bottom: 10px;
+    }
 
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    border-bottom: 3px solid #fff;
-    color: #fff;
-}
+        .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+            border-bottom: 3px solid #fff;
+            color: #fff;
+        }
 
-.navbar-inverse .navbar-brand {
-    color: #fff;
-}
+    .navbar-inverse .navbar-brand {
+        color: #fff;
+    }
 
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-    color: #860D32;
-    background-color: transparent;
-}
+        .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+            color: #860D32;
+            background-color: transparent;
+        }
 
 a, .btn-link {
     color: #09A7E4;
 }
+
 .btn {
     border-radius: 10px;
     text-transform: none;
@@ -62,10 +63,10 @@ a, .btn-link {
     padding: 8px 20px;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    color: #52656B;
-    background-color: #CDFF00;
-}
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+        color: #52656B;
+        background-color: #CDFF00;
+    }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
     color: #ffffff;
@@ -93,8 +94,8 @@ table a:not(.btn), .table a:not(.btn) {
     border-radius: 10px;
 }
 
-.form-control:focus {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 2px solid #FF8598;
-}
+    .form-control:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid #FF8598;
+    }
